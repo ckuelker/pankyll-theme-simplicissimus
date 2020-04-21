@@ -1,0 +1,13 @@
+{% if siblings and frontmatter.cards %}
+<ul>
+   {% for obj in siblings %}
+    <li>
+        <a href="{{ obj.url }}">{{ obj.title }}</a>
+        <div>
+            {{ obj.description }}
+        </div>
+
+    </li>
+   {% endfor %}
+</ul>
+{% endif %}

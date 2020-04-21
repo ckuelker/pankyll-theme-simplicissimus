@@ -1,0 +1,6 @@
+{% if nav %}
+{{ cfg.site.title  }}
+    {% for n in nav %}
+        [<a href="{{ n.link.url }}">{{ n.link.text }}</a>]
+    {% endfor %}
+{% endif %}

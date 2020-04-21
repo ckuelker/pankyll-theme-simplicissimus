@@ -1,0 +1,9 @@
+{% if siblings and frontmatter.list %}
+    <ul>
+      {% for obj in siblings %}
+      <li>
+          <a href="{{ obj.url }}">{{ obj.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+{% endif %}

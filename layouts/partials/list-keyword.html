@@ -1,0 +1,21 @@
+{% if not type == 'title' %}
+    {% if kw %}
+    <ul>
+       {% for obj in kw %}
+       <li>
+           <a href="{{ obj.url }}">{{ obj.title }}</a>
+           {{ obj.description }}
+       </li>
+       {% endfor %}
+    </ul>
+      {% endif %}
+{% endif %}
+
+{# This creates the hit entries for _one_ keyword page: Tags/Berlin.html     #}
+{# This will probably never print something under Tags/index.html,           #}
+{# look for siblings instead                                                 #}
+{# For this to work:                                                         #}
+{# - markdown.py create a kw dictionary with the following keys:             #}
+{#   title:       Pankyll Installation                                       #}
+{#   url:         en_US/Documentation/installation.html                      #}
+{#   description: Pankyll installation on Debian via ...                     #}

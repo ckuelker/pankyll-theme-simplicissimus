@@ -1,0 +1,7 @@
+{% if frontmatter.title %}
+  <h1>{{  frontmatter.title  }}</h1>
+  {% if frontmatter.author %} {{ frontmatter.author }}{% endif %}
+  {% if frontmatter.version %}{{ frontmatter.version }}{% endif %}
+  {% include "partials/modified.html" %}
+{% endif %}
+
