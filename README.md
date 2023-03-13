@@ -1,13 +1,13 @@
 ---
 title:  pankyll-theme-simplicissiums/README.md
 author: Christian Külker
-date:   2022-05-20
+date:   2023-03-13
 
 ---
 
 # Abstract
 
-This document describes briefly the aim and content for
+This document briefly describes the goal and content of
 `pankyll-theme-simplicissimus`. The goal is to provide an easy to read, simple
 black and white experience by providing a minimal layout.
 
@@ -21,19 +21,20 @@ black and white experience by providing a minimal layout.
 
 | Version | Date       | Notes                                                |
 | ------- | ---------- | ---------------------------------------------------- |
+| 0.1.2   | 2023-03-13 | Improve writing, bump Copyright                      |
 | 0.1.1   | 2022-05-20 | +history, dispatch LICENSE                           |
 | 0.1.0   | 2020-04-21 | Initial release                                      |
 
 # Introduction
 
-To understand what is needed to write a theme the [Pankyll] theme
-[simplicissimus] can be used as an object of study.
+To understand what it takes to write a theme, the [Pankyll] theme
+[simplicissimus] can be used as a study object.
 
 # Installation
 
-Consider using the [pankyll-theme-simplicissimus-example] skeleton to test out
-the theme or to start a new site. However the installation by itself is just
-cloning the theme into the `themes` directory.
+Consider using the [pankyll-theme-simplicissimus-example] skeleton to test the
+theme or to start a new site. However, the installation itself is just cloning
+the theme into the `themes` directory.
 
 ```bash
 cd  project/themes
@@ -46,7 +47,7 @@ git clone --recursive https://github.com/ckuelker/pankyll-theme-simplicissimus.g
 
 # License And Copyright
 
-    Copyright (C) 2020, 2022 by Christian Kuelker, see LICENSE file.
+    Copyright (C) 2020, 2022, 2023 by Christian Kuelker, see LICENSE file.
 
 [Pankyll]: https://www.pankyll.org
 [simplicissimus]: https://github.com/ckuelker/pankyll-theme-simplicissimus
